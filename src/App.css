@@ -7,6 +7,35 @@
   pointer-events: none;
 }
 
+.app__form{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #e9e9eb;
+  position: fixed;
+  bottom:0;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px;
+  z-index: 100;
+}
+
+.app__formControl{
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app__iconBtn{
+  flex: 0 !important;
+}
+
+.app__input{
+  flex: 1 !important;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +56,8 @@
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
